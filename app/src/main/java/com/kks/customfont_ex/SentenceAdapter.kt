@@ -25,6 +25,10 @@ class SentenceAdapter(list: MutableList<String>) :
         }
     }
 
+    fun addItem(sentence: String){
+        sentenceList.add(sentence)
+    }
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         Log.d(TAG, "onCreateViewHolder() called with: parent = $parent, viewType = $viewType")

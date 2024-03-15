@@ -25,7 +25,8 @@ class SentenceActivity : AppCompatActivity() {
         sentenceList.add("그 사람 입장에 서기 전까지 절대 그 사람을 욕하거나 책망하지 마라.")
         sentenceList.add("뛰어난 말에게도 채찍이 필요하다.")
 
-        binding.sentenceRecyclerView.adapter = SentenceAdapter(sentenceList)
+        val adapter = SentenceAdapter(sentenceList)
+        binding.sentenceRecyclerView.adapter = adapter
         binding.sentenceRecyclerView.layoutManager = LinearLayoutManager(this)
 
     }
