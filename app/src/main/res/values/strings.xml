@@ -2,4 +2,5 @@
     <string name="app_name">CustomFont_Ex</string>
     <string name="show_all">전체 명언 보기</string>
     <string name="make_new">Make New</string>
+    <string name="add_sentence">명언 추가</string>
 </resources>
